@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-28T12:28:21Z" name="Command line suite" finished-at="2023-09-28T12:29:46Z" duration-ms="84990">
+    <groups>
+    </groups>
+    <test started-at="2023-09-28T12:28:21Z" name="Command line test" finished-at="2023-09-28T12:29:46Z" duration-ms="84990">
+      <class name="com.qsp.vtiger.products.CreateProductTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.qsp.vtiger.products.CreateProductTest@3bb9a3ff]" started-at="2023-09-28T12:29:15Z" name="bcConfig" finished-at="2023-09-28T12:29:18Z" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.qsp.vtiger.products.CreateProductTest@3bb9a3ff]" started-at="2023-09-28T12:29:18Z" name="bmConfig" finished-at="2023-09-28T12:29:22Z" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createProductAndVerifyProductInformation()[pri:0, instance:com.qsp.vtiger.products.CreateProductTest@3bb9a3ff]" started-at="2023-09-28T12:29:22Z" name="createProductAndVerifyProductInformation" finished-at="2023-09-28T12:29:45Z" duration-ms="23105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductAndVerifyProductInformation -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.qsp.vtiger.products.CreateProductTest@3bb9a3ff]" started-at="2023-09-28T12:29:45Z" name="amConfig" finished-at="2023-09-28T12:29:46Z" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.qsp.vtiger.products.CreateProductTest@3bb9a3ff]" started-at="2023-09-28T12:29:46Z" name="acConfig" finished-at="2023-09-28T12:29:46Z" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- com.qsp.vtiger.products.CreateProductTest -->
+      <class name="com.qsp.vtiger.leads.ToCreateALeadTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:28:21Z" name="bsConfig" finished-at="2023-09-28T12:28:21Z" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="btConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:28:22Z" name="btConfig" finished-at="2023-09-28T12:28:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:28:22Z" name="bcConfig" finished-at="2023-09-28T12:28:34Z" duration-ms="12381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:28:34Z" name="bmConfig" finished-at="2023-09-28T12:28:44Z" duration-ms="9210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateALeadAndVerifyTheLeadDetails()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:28:44Z" name="toCreateALeadAndVerifyTheLeadDetails" finished-at="2023-09-28T12:29:12Z" duration-ms="28807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateALeadAndVerifyTheLeadDetails -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:29:12Z" name="amConfig" finished-at="2023-09-28T12:29:14Z" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:29:14Z" name="acConfig" finished-at="2023-09-28T12:29:15Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="atConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:29:46Z" name="atConfig" finished-at="2023-09-28T12:29:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:com.qsp.vtiger.leads.ToCreateALeadTest@7c729a55]" started-at="2023-09-28T12:29:47Z" name="asConfig" finished-at="2023-09-28T12:29:47Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- com.qsp.vtiger.leads.ToCreateALeadTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
