@@ -20,7 +20,7 @@ import com.qsp.vtiger.pomRepository.VendorsPage;
 
 public class CreateProductTest extends BaseClass {
 	
-	@Test
+	@Test(groups="regression")
 	public void createProductAndVerifyProductInformation() throws EncryptedDocumentException, IOException, InterruptedException {
 
 		String vendorName = eUtils.fetchStringDataFromExcel(IPathConstant.PRODUCT_SHEET_NAME, 18, 2);

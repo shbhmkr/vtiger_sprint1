@@ -44,7 +44,7 @@ public class BaseClass {
 		System.out.println(" Data base coonection has been established");
 	}
 	
-    @BeforeTest
+    @BeforeTest(groups = {"smoke","regression"})
     public void btConfig() {
     	System.out.println("parallel execution has been started");
     }

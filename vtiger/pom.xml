@@ -47,8 +47,28 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
-
-
-
 </dependencies>
+
+<profiles>
+<profile>
+<id>smoke</id>
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.1.2</version>
+          <configuration>
+          <suiteXmlFiles>smokeTest.xml</suiteXmlFiles>
+          
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</profile>
+</profiles>
+
+
 </project>

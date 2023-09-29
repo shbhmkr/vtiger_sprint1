@@ -1,4 +1,5 @@
 com\qsp\vtiger\leads\ToCreateALeadTest.class
+com\qsp\vtiger\leads\DemoLeadTest.class
 ExtraConcepts\CalenderPopup.class
 com\qsp\vtiger\products\Demo.class
 JDBC\ToExecuteQuerry.class
