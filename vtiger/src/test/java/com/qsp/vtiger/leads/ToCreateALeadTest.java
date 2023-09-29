@@ -16,10 +16,15 @@ import com.qsp.vtiger.pomRepository.HomePage;
 import com.qsp.vtiger.pomRepository.LeadInformationPage;
 import com.qsp.vtiger.pomRepository.LeadsPage;
 
+/**
+ * 
+ * @author SHUBHAM
+ *
+ */
 @Listeners(com.qsp.vtiger.genericUtility.ListenerImplementationClass.class) //here @Listeners will act as a camera or messanger to implementation class so that if anything fails here implemetation class will come to know that script has failed and it will take screenshots.
 public class ToCreateALeadTest extends BaseClass {
 	
-	@Test(retryAnalyzer=com.qsp.vtiger.genericUtility.RetryImplementationClass.class)
+	@Test(retryAnalyzer=com.qsp.vtiger.genericUtility.RetryImplementationClass.class,groups="smoke")
 	public void toCreateALeadAndVerifyTheLeadDetails() throws EncryptedDocumentException, IOException, InterruptedException, SQLException {
 		
 		        //Test Data
