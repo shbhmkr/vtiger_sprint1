@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.mysql.jdbc.Driver;
 import com.qsp.vtiger.pomRepository.HomePage;
@@ -49,9 +50,11 @@ public class BaseClass {
     	System.out.println("parallel execution has been started");
     }
     
-    @BeforeClass
+   // @Parameters("browser")
+    @BeforeClass(groups= {"smoke","regression"})
     public void bcConfig() throws IOException {
     	
+    	//System.out.println("The parameter value ============"+browser);
     	String browser=fUtils.fetchDataFromPropertFile("browser");
     	String url=fUtils.fetchDataFromPropertFile("url");
     	
